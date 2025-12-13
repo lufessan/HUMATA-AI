@@ -139,67 +139,72 @@
   }
 }
 
-/* Mobile optimizations - Lighter animations with GPU acceleration */
+/* Mobile optimizations - Disable heavy animations for performance */
 @media (max-width: 768px) {
-  /* Enable GPU acceleration */
-  * {
-    will-change: auto;
-    transform: translateZ(0);
-  }
-
-  /* Speed up animations 3x on mobile */
-  [style*="animation: neon-flicker"] {
-    animation-duration: 1s !important;
+  /* Disable all neon animations on mobile for performance */
+  .animated-neon-border {
+    animation: none !important;
+    box-shadow: 0 0 5px rgba(0, 240, 255, 0.3) !important;
   }
 
   .animated-dua {
-    animation-duration: 0.3s !important;
-    animation-timing-function: ease-out !important;
+    animation: none !important;
+    background: linear-gradient(90deg, #00F0FF, #FF006E) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
   }
 
-  .icon-3d {
-    animation-duration: 1s !important;
-    animation-timing-function: ease-in-out !important;
+  .neon-input-container {
+    animation: none !important;
+    box-shadow: 0 0 5px rgba(0, 240, 255, 0.2) !important;
   }
 
-  .animate-pulse {
-    animation-duration: 1s !important;
+  /* Disable planet animations on mobile */
+  .planet-1, .planet-2, .planet-3, .planet-4, .planet-5 {
+    animation: none !important;
   }
 
-  .animate-fade-in-up {
-    animation-duration: 0.2s !important;
-    animation-timing-function: ease-out !important;
-  }
-
+  /* Disable all pulse/glow animations */
+  .animate-pulse,
   .animate-pulsing-glow {
-    animation-duration: 0.8s !important;
+    animation: none !important;
   }
 
-  /* Speed up planet animations */
-  [class*="planet-float"] {
-    animation-duration: 3s !important;
+  /* Reduce all shadows to simple versions */
+  .shadow-lg, .shadow-md, .shadow-sm, .shadow-xl, .shadow-2xl {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
   }
 
-  /* Speed up gradient animations */
+  /* Keep text readable but remove heavy text-shadows */
   .inspirational-quote {
-    animation-duration: 2s !important;
+    text-shadow: none !important;
+    filter: none !important;
   }
 
-  /* Faster transitions on mobile - 50ms */
+  /* Faster, simpler transitions */
   * {
-    transition-duration: 0.05s !important;
+    transition-duration: 0.1s !important;
   }
 
-  /* Reduce shadow complexity on mobile */
-  .shadow-lg,
-  .shadow-md,
-  .shadow-sm {
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)) !important;
+  /* Keep icon-3d but simplify */
+  .icon-3d {
+    animation: none !important;
   }
 
-  /* Keep text-shadow but make it lighter on mobile */
-  [style*="text-shadow"] {
-    filter: drop-shadow(0 0 8px rgba(0, 240, 255, 0.3)) !important;
+  .icon-3d-wrapper {
+    box-shadow: none !important;
+  }
+}
+
+/* Slide up animation for mobile FAB */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

@@ -1,16 +1,14 @@
 import Groq from "groq-sdk";
-import OpenAI from "openai";
 import * as fs from "fs";
 import mammoth from "mammoth";
 import { createRequire } from "module";
+import Tesseract from "tesseract.js";
 
 const require = createRequire(import.meta.url);
 const pdfParse = require("pdf-parse");
 
 const GROQ_API_KEY = process.env.GROQ_API_KEY;
-const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
 const REASONING_MODEL = "llama-3.3-70b-versatile";
-const VISION_MODEL = "google/gemini-2.0-flash-exp:free";
 
 if (!GROQ_API_KEY) {
   console.error("[Groq] CRITICAL: No GROQ_API_KEY environment variable is set!");
@@ -18,20 +16,11 @@ if (!GROQ_API_KEY) {
   console.log(`[Groq] API key configured, using model: ${REASONING_MODEL} (reasoning)`);
 }
 
-if (!OPENROUTER_API_KEY) {
-  console.error("[Vision] WARNING: No OPENROUTER_API_KEY environment variable is set! Vision features will be limited.");
-} else {
-  console.log(`[Vision] OpenRouter configured, using model: ${VISION_MODEL} (vision - FREE)`);
-}
+console.log("[OCR] Using Tesseract.js for local image text extraction (no API key required)");
 
 const groq = new Groq({
   apiKey: GROQ_API_KEY || "",
 });
-
-const openrouter = OPENROUTER_API_KEY ? new OpenAI({
-  apiKey: OPENROUTER_API_KEY,
-  baseURL: "https://openrouter.ai/api/v1",
-}) : null;
 
 export interface GroqChatOptions {
   systemPrompt?: string;
@@ -44,8 +33,8 @@ export interface GroqChatOptions {
 
 export function getApiKeyStatus() {
   return {
-    total: (GROQ_API_KEY ? 1 : 0) + (OPENROUTER_API_KEY ? 1 : 0),
-    available: (GROQ_API_KEY ? 1 : 0) + (OPENROUTER_API_KEY ? 1 : 0),
+    total: GROQ_API_KEY ? 1 : 0,
+    available: GROQ_API_KEY ? 1 : 0,
     failed: 0
   };
 }
@@ -54,7 +43,9 @@ const HUMATA_SYSTEM_PROMPT = `You are Humata AI. In 'Scientific Mode', explain c
 
 IMPORTANT LANGUAGE REQUIREMENT: You must output ONLY in standard Arabic (العربية الفصحى). Do not use Chinese, English, Latin, or any other non-Arabic characters whatsoever. Translate ALL technical terms to Arabic. Ensure the text is 100% pure Arabic script only. Never mix languages.
 
-CRITICAL OUTPUT REQUIREMENT: Your responses MUST be clean, readable, professional prose. AVOID using any decorative Markdown characters like asterisks (*), hashtags (#), backticks (\`), or excessive formatting symbols. Focus on clear, clean text only. Use simple line breaks for paragraph separation instead of Markdown formatting.`;
+CRITICAL OUTPUT REQUIREMENT: Your responses MUST be clean, readable, professional prose. AVOID using any decorative Markdown characters like asterisks (*), hashtags (#), backticks (\`), or excessive formatting symbols. Focus on clear, clean text only. Use simple line breaks for paragraph separation instead of Markdown formatting.
+
+When processing OCR text from images, please clean up any recognition errors and understand the context to provide accurate responses.`;
 
 async function extractTextFromPDF(base64Data: string): Promise<string> {
   try {
@@ -80,57 +71,36 @@ async function extractTextFromDOCX(base64Data: string): Promise<string> {
   }
 }
 
-async function analyzeImageWithOpenRouter(base64Data: string, mimeType: string, userPrompt: string = "", retryCount: number = 0): Promise<string> {
-  const MAX_RETRIES = 2;
+async function extractTextFromImageWithOCR(base64Data: string, mimeType: string): Promise<string> {
+  console.log("[OCR] Starting local Tesseract.js OCR (no API key required)");
   
-  if (!openrouter || !OPENROUTER_API_KEY) {
-    throw new Error("لا يوجد مفتاح OpenRouter متاح - يرجى إضافة OPENROUTER_API_KEY");
-  }
-
-  console.log(`[Vision] Analyzing image with ${VISION_MODEL} (FREE via OpenRouter)`);
-
   try {
-    const prompt = userPrompt || "Extract all text, formulas, and describe diagrams in this image in extreme detail so a blind person could understand it. Be precise about mathematical notation, symbols, and any technical content. Describe spatial relationships and layouts clearly. Respond in Arabic.";
-
-    const completion = await openrouter.chat.completions.create({
-      model: VISION_MODEL,
-      messages: [
-        {
-          role: "user",
-          content: [
-            {
-              type: "image_url",
-              image_url: {
-                url: `data:${mimeType};base64,${base64Data}`,
-              },
-            },
-            {
-              type: "text",
-              text: prompt,
-            },
-          ],
-        },
-      ],
-    });
-
-    const description = completion.choices[0]?.message?.content;
-
-    if (!description) {
-      throw new Error("No description generated from vision model");
+    const imageBuffer = Buffer.from(base64Data, "base64");
+    
+    const result = await Tesseract.recognize(
+      imageBuffer,
+      "ara+eng",
+      {
+        logger: (m) => {
+          if (m.status === "recognizing text") {
+            console.log(`[OCR] Progress: ${Math.round(m.progress * 100)}%`);
+          }
+        }
+      }
+    );
+    
+    const extractedText = result.data.text.trim();
+    
+    if (!extractedText) {
+      console.log("[OCR] No text found in image");
+      return "[صورة - لم يتم العثور على نص قابل للقراءة في الصورة]";
     }
-
-    console.log(`[Vision] Image analysis complete - ${description.length} chars`);
-    return description;
+    
+    console.log(`[OCR] Successfully extracted ${extractedText.length} characters from image`);
+    return `[نص مستخرج من الصورة باستخدام OCR]:\n${extractedText}`;
   } catch (error: any) {
-    console.error("[Vision] Error:", error.message);
-    
-    if ((error.status === 429 || error.message?.includes("quota") || error.message?.includes("rate")) && retryCount < MAX_RETRIES) {
-      console.log(`[Vision] Rate limited, waiting and retrying... (attempt ${retryCount + 1}/${MAX_RETRIES})`);
-      await new Promise(resolve => setTimeout(resolve, 2000 * (retryCount + 1)));
-      return analyzeImageWithOpenRouter(base64Data, mimeType, userPrompt, retryCount + 1);
-    }
-    
-    throw error;
+    console.error("[OCR] Error during text extraction:", error.message);
+    return "[صورة - فشل في استخراج النص من الصورة]";
   }
 }
 
@@ -153,11 +123,7 @@ async function processFileContent(base64Data: string, mimeType: string, fileName
   }
 
   if (mimeType.startsWith("image/")) {
-    if (openrouter && OPENROUTER_API_KEY) {
-      return await analyzeImageWithOpenRouter(base64Data, mimeType);
-    } else {
-      return "[صورة مرفقة - يرجى إضافة OPENROUTER_API_KEY لتحليل الصور]";
-    }
+    return await extractTextFromImageWithOCR(base64Data, mimeType);
   }
 
   return `[ملف: ${fileName}] - نوع الملف غير مدعوم للقراءة التلقائية`;
