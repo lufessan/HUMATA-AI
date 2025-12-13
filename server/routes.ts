@@ -3,7 +3,7 @@ import { createServer, type Server } from "http";
 import multer from "multer";
 import fs from "fs";
 import { storage } from "./storage";
-import { sendChatMessage, uploadFileToGemini, getApiKeyStatus } from "./groq";
+import { sendChatMessage, uploadFile, getApiKeyStatus } from "./groq";
 import { randomUUID } from "crypto";
 import { signupSchema, loginSchema, type SignupInput, type LoginInput, type User } from "@shared/schema";
 import crypto from "crypto";
@@ -15,13 +15,17 @@ if (!fs.existsSync(uploadDir)) {
   fs.mkdirSync(uploadDir, { recursive: true });
 }
 
-// Strict MIME type filter for Gemini Vision
+// Supported file types for HUMATA AI file processing
 const ALLOWED_MIME_TYPES = [
   "application/pdf",
   "image/jpeg",
   "image/png",
   "image/webp",
   "image/gif",
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "application/msword",
+  "text/plain",
+  "text/markdown",
 ];
 
 const upload = multer({
@@ -463,7 +467,7 @@ export async function registerRoutes(
 
       console.log(`[Routes] File metadata - path: ${file.path}, type: ${file.mimetype}, size: ${file.size}`);
 
-      const uploadResult = await uploadFileToGemini(file.path, file.mimetype, file.originalname);
+      const uploadResult = await uploadFile(file.path, file.mimetype, file.originalname);
 
       fs.unlink(file.path, (err) => {
         if (err) console.error("[Routes] Failed to delete temp file:", err);
@@ -505,7 +509,7 @@ export async function registerRoutes(
       for (const file of files) {
         console.log(`[Routes] Processing file: ${file.originalname}, type: ${file.mimetype}, size: ${file.size}`);
         
-        const uploadResult = await uploadFileToGemini(file.path, file.mimetype, file.originalname);
+        const uploadResult = await uploadFile(file.path, file.mimetype, file.originalname);
         uploadResults.push(uploadResult);
 
         fs.unlink(file.path, (err) => {

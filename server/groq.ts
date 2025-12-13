@@ -1,11 +1,16 @@
 import Groq from "groq-sdk";
-import { GoogleGenerativeAI } from "@google/generative-ai";
+import OpenAI from "openai";
 import * as fs from "fs";
+import mammoth from "mammoth";
+import { createRequire } from "module";
+
+const require = createRequire(import.meta.url);
+const pdfParse = require("pdf-parse");
 
 const GROQ_API_KEY = process.env.GROQ_API_KEY;
-const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
+const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
 const REASONING_MODEL = "llama-3.3-70b-versatile";
-const GOOGLE_VISION_MODEL = "gemini-1.5-pro";
+const VISION_MODEL = "google/gemini-2.0-flash-exp:free";
 
 if (!GROQ_API_KEY) {
   console.error("[Groq] CRITICAL: No GROQ_API_KEY environment variable is set!");
@@ -13,17 +18,20 @@ if (!GROQ_API_KEY) {
   console.log(`[Groq] API key configured, using model: ${REASONING_MODEL} (reasoning)`);
 }
 
-if (!GOOGLE_API_KEY) {
-  console.error("[Google] WARNING: No GOOGLE_API_KEY environment variable is set! Vision features will be limited.");
+if (!OPENROUTER_API_KEY) {
+  console.error("[Vision] WARNING: No OPENROUTER_API_KEY environment variable is set! Vision features will be limited.");
 } else {
-  console.log(`[Google] API key configured, using model: ${GOOGLE_VISION_MODEL} (vision)`);
+  console.log(`[Vision] OpenRouter configured, using model: ${VISION_MODEL} (vision - FREE)`);
 }
 
 const groq = new Groq({
   apiKey: GROQ_API_KEY || "",
 });
 
-const genAI = GOOGLE_API_KEY ? new GoogleGenerativeAI(GOOGLE_API_KEY) : null;
+const openrouter = OPENROUTER_API_KEY ? new OpenAI({
+  apiKey: OPENROUTER_API_KEY,
+  baseURL: "https://openrouter.ai/api/v1",
+}) : null;
 
 export interface GroqChatOptions {
   systemPrompt?: string;
@@ -36,8 +44,8 @@ export interface GroqChatOptions {
 
 export function getApiKeyStatus() {
   return {
-    total: (GROQ_API_KEY ? 1 : 0) + (GOOGLE_API_KEY ? 1 : 0),
-    available: (GROQ_API_KEY ? 1 : 0) + (GOOGLE_API_KEY ? 1 : 0),
+    total: (GROQ_API_KEY ? 1 : 0) + (OPENROUTER_API_KEY ? 1 : 0),
+    available: (GROQ_API_KEY ? 1 : 0) + (OPENROUTER_API_KEY ? 1 : 0),
     failed: 0
   };
 }
@@ -48,46 +56,111 @@ IMPORTANT LANGUAGE REQUIREMENT: You must output ONLY in standard Arabic (الع�
 
 CRITICAL OUTPUT REQUIREMENT: Your responses MUST be clean, readable, professional prose. AVOID using any decorative Markdown characters like asterisks (*), hashtags (#), backticks (\`), or excessive formatting symbols. Focus on clear, clean text only. Use simple line breaks for paragraph separation instead of Markdown formatting.`;
 
-async function analyzeImageWithGoogle(base64Data: string, mimeType: string): Promise<string> {
-  if (!genAI || !GOOGLE_API_KEY) {
-    throw new Error("لا يوجد مفتاح Google API متاح - يرجى إضافة GOOGLE_API_KEY");
+async function extractTextFromPDF(base64Data: string): Promise<string> {
+  try {
+    const buffer = Buffer.from(base64Data, "base64");
+    const data = await pdfParse(buffer);
+    console.log(`[FileReader] PDF extracted - ${data.text.length} chars`);
+    return data.text;
+  } catch (error: any) {
+    console.error("[FileReader] PDF extraction error:", error.message);
+    throw new Error("فشل في قراءة ملف PDF");
+  }
+}
+
+async function extractTextFromDOCX(base64Data: string): Promise<string> {
+  try {
+    const buffer = Buffer.from(base64Data, "base64");
+    const result = await mammoth.extractRawText({ buffer });
+    console.log(`[FileReader] DOCX extracted - ${result.value.length} chars`);
+    return result.value;
+  } catch (error: any) {
+    console.error("[FileReader] DOCX extraction error:", error.message);
+    throw new Error("فشل في قراءة ملف Word");
+  }
+}
+
+async function analyzeImageWithOpenRouter(base64Data: string, mimeType: string, userPrompt: string = "", retryCount: number = 0): Promise<string> {
+  const MAX_RETRIES = 2;
+  
+  if (!openrouter || !OPENROUTER_API_KEY) {
+    throw new Error("لا يوجد مفتاح OpenRouter متاح - يرجى إضافة OPENROUTER_API_KEY");
   }
 
-  console.log(`[Google Vision] Analyzing image with ${GOOGLE_VISION_MODEL}`);
+  console.log(`[Vision] Analyzing image with ${VISION_MODEL} (FREE via OpenRouter)`);
 
   try {
-    const model = genAI.getGenerativeModel({ model: GOOGLE_VISION_MODEL });
+    const prompt = userPrompt || "Extract all text, formulas, and describe diagrams in this image in extreme detail so a blind person could understand it. Be precise about mathematical notation, symbols, and any technical content. Describe spatial relationships and layouts clearly. Respond in Arabic.";
 
-    const imagePart = {
-      inlineData: {
-        data: base64Data,
-        mimeType: mimeType,
-      },
-    };
+    const completion = await openrouter.chat.completions.create({
+      model: VISION_MODEL,
+      messages: [
+        {
+          role: "user",
+          content: [
+            {
+              type: "image_url",
+              image_url: {
+                url: `data:${mimeType};base64,${base64Data}`,
+              },
+            },
+            {
+              type: "text",
+              text: prompt,
+            },
+          ],
+        },
+      ],
+    });
 
-    const prompt = "Extract all text, formulas, and describe diagrams in this image in extreme detail so a blind person could understand it. Be precise about mathematical notation, symbols, and any technical content. Describe spatial relationships and layouts clearly.";
-
-    const result = await model.generateContent([prompt, imagePart]);
-    const response = await result.response;
-    const description = response.text();
+    const description = completion.choices[0]?.message?.content;
 
     if (!description) {
-      throw new Error("No description generated from Google vision model");
+      throw new Error("No description generated from vision model");
     }
 
-    console.log(`[Google Vision] Image analysis complete - ${description.length} chars`);
+    console.log(`[Vision] Image analysis complete - ${description.length} chars`);
     return description;
   } catch (error: any) {
-    console.error("[Google Vision] Error:", error.message);
+    console.error("[Vision] Error:", error.message);
     
-    if (error.status === 429 || error.message?.includes("quota") || error.message?.includes("rate")) {
-      console.log("[Google Vision] Rate limited, waiting and retrying...");
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      return analyzeImageWithGoogle(base64Data, mimeType);
+    if ((error.status === 429 || error.message?.includes("quota") || error.message?.includes("rate")) && retryCount < MAX_RETRIES) {
+      console.log(`[Vision] Rate limited, waiting and retrying... (attempt ${retryCount + 1}/${MAX_RETRIES})`);
+      await new Promise(resolve => setTimeout(resolve, 2000 * (retryCount + 1)));
+      return analyzeImageWithOpenRouter(base64Data, mimeType, userPrompt, retryCount + 1);
     }
     
     throw error;
   }
+}
+
+async function processFileContent(base64Data: string, mimeType: string, fileName: string): Promise<string> {
+  console.log(`[FileReader] Processing file: ${fileName}, type: ${mimeType}`);
+
+  if (mimeType === "application/pdf") {
+    return await extractTextFromPDF(base64Data);
+  }
+
+  if (mimeType === "application/vnd.openxmlformats-officedocument.wordprocessingml.document" || 
+      mimeType === "application/msword") {
+    return await extractTextFromDOCX(base64Data);
+  }
+
+  if (mimeType === "text/plain" || mimeType === "text/markdown") {
+    const text = Buffer.from(base64Data, "base64").toString("utf-8");
+    console.log(`[FileReader] Text file read - ${text.length} chars`);
+    return text;
+  }
+
+  if (mimeType.startsWith("image/")) {
+    if (openrouter && OPENROUTER_API_KEY) {
+      return await analyzeImageWithOpenRouter(base64Data, mimeType);
+    } else {
+      return "[صورة مرفقة - يرجى إضافة OPENROUTER_API_KEY لتحليل الصور]";
+    }
+  }
+
+  return `[ملف: ${fileName}] - نوع الملف غير مدعوم للقراءة التلقائية`;
 }
 
 export async function sendChatMessage(
@@ -100,30 +173,22 @@ export async function sendChatMessage(
   }
 
   try {
-    let imageDescription = "";
+    let fileContent = "";
 
-    if (options.base64Data && options.mimeType && options.mimeType.startsWith("image/")) {
-      if (genAI && GOOGLE_API_KEY) {
-        console.log(`[Hybrid] Step 1: Google Vision analysis for uploaded image`);
-        imageDescription = await analyzeImageWithGoogle(options.base64Data, options.mimeType);
-      } else {
-        console.log(`[Hybrid] Skipping vision - no Google API key available`);
-      }
+    if (options.base64Data && options.mimeType) {
+      console.log(`[Hybrid] Processing uploaded file: ${options.fileName}`);
+      fileContent = await processFileContent(options.base64Data, options.mimeType, options.fileName || "file");
     }
 
     if (options.files && options.files.length > 0) {
       for (const file of options.files) {
-        if (file.mimeType.startsWith("image/")) {
-          if (genAI && GOOGLE_API_KEY) {
-            console.log(`[Hybrid] Step 1: Google Vision analysis for file: ${file.fileName}`);
-            const desc = await analyzeImageWithGoogle(file.base64Data, file.mimeType);
-            imageDescription += `\n\n[Image: ${file.fileName}]\n${desc}`;
-          }
-        }
+        console.log(`[Hybrid] Processing file: ${file.fileName}`);
+        const content = await processFileContent(file.base64Data, file.mimeType, file.fileName);
+        fileContent += `\n\n[${file.fileName}]\n${content}`;
       }
     }
 
-    console.log(`[Hybrid] Step 2: Groq Reasoning with ${REASONING_MODEL}`);
+    console.log(`[Hybrid] Sending to Groq Reasoning with ${REASONING_MODEL}`);
 
     const messages: Array<{ role: "system" | "user" | "assistant"; content: string }> = [];
 
@@ -145,8 +210,8 @@ export async function sendChatMessage(
     }
 
     let userMessage = message;
-    if (imageDescription) {
-      userMessage = `[Image Content Description]:\n${imageDescription}\n\n[User Question]:\n${message}`;
+    if (fileContent) {
+      userMessage = `[محتوى الملف/الصورة]:\n${fileContent}\n\n[سؤال المستخدم]:\n${message}`;
     }
 
     messages.push({
@@ -154,7 +219,7 @@ export async function sendChatMessage(
       content: userMessage,
     });
 
-    console.log(`[Hybrid] Sending Groq reasoning request - messagesCount: ${messages.length}, hasImageDescription: ${!!imageDescription}`);
+    console.log(`[Hybrid] Groq request - messagesCount: ${messages.length}, hasFileContent: ${!!fileContent}`);
 
     const completion = await groq.chat.completions.create({
       model: REASONING_MODEL,
@@ -192,20 +257,20 @@ export async function sendChatMessage(
   }
 }
 
-export async function uploadFileToGemini(
+export async function uploadFile(
   filePath: string,
   mimeType: string,
   fileName: string
 ): Promise<{ base64Data: string; mimeType: string; fileName: string }> {
   try {
-    console.log(`[Hybrid] uploadFileToGemini called - file: ${fileName}, mimeType: ${mimeType}`);
-    console.log(`[Hybrid] File path: ${filePath}`);
+    console.log(`[FileReader] Reading file: ${fileName}, mimeType: ${mimeType}`);
+    console.log(`[FileReader] File path: ${filePath}`);
 
     const fileBytes = fs.readFileSync(filePath);
-    console.log(`[Hybrid] File read successfully - size: ${fileBytes.length} bytes`);
+    console.log(`[FileReader] File read successfully - size: ${fileBytes.length} bytes`);
 
     const base64Data = fileBytes.toString("base64");
-    console.log(`[Hybrid] File converted to base64 - length: ${base64Data.length}`);
+    console.log(`[FileReader] File converted to base64 - length: ${base64Data.length}`);
 
     return {
       base64Data,
@@ -213,8 +278,8 @@ export async function uploadFileToGemini(
       fileName,
     };
   } catch (error: any) {
-    console.error("[Hybrid] File upload error:", error);
-    console.error("[Hybrid] Error stack:", error.stack);
+    console.error("[FileReader] File read error:", error);
+    console.error("[FileReader] Error stack:", error.stack);
     throw new Error(error.message || "Failed to process file");
   }
 }
