@@ -8,7 +8,6 @@ import { randomUUID } from "crypto";
 import { signupSchema, loginSchema, type SignupInput, type LoginInput, type User } from "@shared/schema";
 import crypto from "crypto";
 import jwt from "jsonwebtoken";
-import OpenAI from "openai";
 
 const uploadDir = "/tmp/uploads";
 if (!fs.existsSync(uploadDir)) {
@@ -636,7 +635,8 @@ export async function registerRoutes(
     res.json({ 
       status: "online", 
       timestamp: new Date().toISOString(),
-      model: "gemini-2.5-flash",
+      model: "llama-3.3-70b-versatile",
+      ocr: "tesseract.js (local)"
     });
   });
 
@@ -654,63 +654,6 @@ export async function registerRoutes(
         ? "لم يتم إضافة أي مفاتيح API" 
         : `${status.available} مفتاح متاح من ${status.total}`
     });
-  });
-
-  // AI Science Tutor endpoint using OpenRouter API
-  app.post("/api/ask-ai", async (req: Request, res: Response) => {
-    try {
-      const { message, conversationHistory } = req.body;
-
-      if (!message || typeof message !== "string") {
-        res.status(400).json({ error: "Message is required" });
-        return;
-      }
-
-      const apiKey = process.env.OPENROUTER_API_KEY;
-      if (!apiKey) {
-        res.status(500).json({ error: "OpenRouter API key not configured" });
-        return;
-      }
-
-      const openai = new OpenAI({
-        apiKey: apiKey,
-        baseURL: "https://openrouter.ai/api/v1",
-      });
-
-      const messages: Array<{ role: "system" | "user" | "assistant"; content: string }> = [
-        {
-          role: "system",
-          content: "You are an expert science tutor (Physics, Chemistry, Biology). Explain complex concepts simply to students, use examples, and solve equations step-by-step."
-        }
-      ];
-
-      if (conversationHistory && Array.isArray(conversationHistory)) {
-        for (const msg of conversationHistory) {
-          if (msg.role === "user" || msg.role === "assistant") {
-            messages.push({ role: msg.role, content: msg.content });
-          }
-        }
-      }
-
-      messages.push({ role: "user", content: message });
-
-      const completion = await openai.chat.completions.create({
-        model: "google/gemini-2.0-flash-exp:free",
-        messages: messages,
-      });
-
-      const aiResponse = completion.choices[0]?.message?.content || "No response generated";
-
-      res.json({
-        success: true,
-        response: aiResponse,
-      });
-    } catch (error: any) {
-      console.error("[Routes] AI Science Tutor error:", error);
-      res.status(500).json({ 
-        error: error.message || "Failed to get AI response",
-      });
-    }
   });
 
   return httpServer;
