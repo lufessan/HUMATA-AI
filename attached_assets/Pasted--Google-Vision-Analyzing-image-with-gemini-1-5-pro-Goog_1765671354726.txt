@@ -1,0 +1,1210 @@
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+     ==> Setting WEB_CONCURRENCY=1 by default, based on available CPUs in the instance
+     ==> Deploying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+==> Running 'npm run start'
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/index.cjs
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+node:internal/modules/cjs/loader:1966
+    throw new ERR_INVALID_ARG_VALUE('filename', filename, createRequireError);
+    ^
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'filename' must be a file URL object, file URL string, or absolute path string. Received undefined
+    at createRequire (node:internal/modules/cjs/loader:1966:11)
+    at Object.<anonymous> (/opt/render/project/src/dist/index.cjs:73:443)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'ERR_INVALID_ARG_VALUE'
+}
+Node.js v22.16.0
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+     ==> Exited with status 1
+     ==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+==> Running 'npm run start'
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/index.cjs
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+node:internal/modules/cjs/loader:1966
+    throw new ERR_INVALID_ARG_VALUE('filename', filename, createRequireError);
+    ^
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'filename' must be a file URL object, file URL string, or absolute path string. Received undefined
+    at createRequire (node:internal/modules/cjs/loader:1966:11)
+    at Object.<anonymous> (/opt/render/project/src/dist/index.cjs:73:443)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'ERR_INVALID_ARG_VALUE'
+}
+Node.js v22.16.0
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+     ==> Setting WEB_CONCURRENCY=1 by default, based on available CPUs in the instance
+     ==> Deploying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+==> Running 'npm run start'
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/index.cjs
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+node:internal/modules/cjs/loader:1966
+    throw new ERR_INVALID_ARG_VALUE('filename', filename, createRequireError);
+    ^
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'filename' must be a file URL object, file URL string, or absolute path string. Received undefined
+    at createRequire (node:internal/modules/cjs/loader:1966:11)
+    at Object.<anonymous> (/opt/render/project/src/dist/index.cjs:73:443)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'ERR_INVALID_ARG_VALUE'
+}
+Node.js v22.16.0
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+     ==> Exited with status 1
+     ==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+==> Running 'npm run start'
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/index.cjs
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+node:internal/modules/cjs/loader:1966
+    throw new ERR_INVALID_ARG_VALUE('filename', filename, createRequireError);
+    ^
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'filename' must be a file URL object, file URL string, or absolute path string. Received undefined
+    at createRequire (node:internal/modules/cjs/loader:1966:11)
+    at Object.<anonymous> (/opt/render/project/src/dist/index.cjs:73:443)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'ERR_INVALID_ARG_VALUE'
+}
+Node.js v22.16.0
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+     ==> Setting WEB_CONCURRENCY=1 by default, based on available CPUs in the instance
+     ==> Deploying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+==> Running 'npm run start'
+[Google Vision] Analyzing image with gemini-1.5-pro
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/index.cjs
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+node:internal/modules/cjs/loader:1966
+    throw new ERR_INVALID_ARG_VALUE('filename', filename, createRequireError);
+    ^
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'filename' must be a file URL object, file URL string, or absolute path string. Received undefined
+    at createRequire (node:internal/modules/cjs/loader:1966:11)
+    at Object.<anonymous> (/opt/render/project/src/dist/index.cjs:73:443)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'ERR_INVALID_ARG_VALUE'
+}
+Node.js v22.16.0
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+     ==> Exited with status 1
+     ==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+==> Running 'npm run start'
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/index.cjs
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+node:internal/modules/cjs/loader:1966
+    throw new ERR_INVALID_ARG_VALUE('filename', filename, createRequireError);
+    ^
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'filename' must be a file URL object, file URL string, or absolute path string. Received undefined
+    at createRequire (node:internal/modules/cjs/loader:1966:11)
+    at Object.<anonymous> (/opt/render/project/src/dist/index.cjs:73:443)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'ERR_INVALID_ARG_VALUE'
+}
+Node.js v22.16.0
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+     ==> Setting WEB_CONCURRENCY=1 by default, based on available CPUs in the instance
+     ==> Deploying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+==> Running 'npm run start'
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/index.cjs
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+node:internal/modules/cjs/loader:1966
+    throw new ERR_INVALID_ARG_VALUE('filename', filename, createRequireError);
+    ^
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'filename' must be a file URL object, file URL string, or absolute path string. Received undefined
+    at createRequire (node:internal/modules/cjs/loader:1966:11)
+    at Object.<anonymous> (/opt/render/project/src/dist/index.cjs:73:443)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'ERR_INVALID_ARG_VALUE'
+}
+Node.js v22.16.0
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+     ==> Exited with status 1
+     ==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+==> Running 'npm run start'
+[Google Vision] Analyzing image with gemini-1.5-pro
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/index.cjs
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+node:internal/modules/cjs/loader:1966
+    throw new ERR_INVALID_ARG_VALUE('filename', filename, createRequireError);
+    ^
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'filename' must be a file URL object, file URL string, or absolute path string. Received undefined
+    at createRequire (node:internal/modules/cjs/loader:1966:11)
+    at Object.<anonymous> (/opt/render/project/src/dist/index.cjs:73:443)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'ERR_INVALID_ARG_VALUE'
+}
+Node.js v22.16.0
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+     ==> Setting WEB_CONCURRENCY=1 by default, based on available CPUs in the instance
+     ==> Deploying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+==> Running 'npm run start'
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/index.cjs
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+node:internal/modules/cjs/loader:1966
+    throw new ERR_INVALID_ARG_VALUE('filename', filename, createRequireError);
+    ^
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'filename' must be a file URL object, file URL string, or absolute path string. Received undefined
+    at createRequire (node:internal/modules/cjs/loader:1966:11)
+    at Object.<anonymous> (/opt/render/project/src/dist/index.cjs:73:443)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'ERR_INVALID_ARG_VALUE'
+}
+Node.js v22.16.0
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+     ==> Exited with status 1
+     ==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+==> Running 'npm run start'
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/index.cjs
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+node:internal/modules/cjs/loader:1966
+    throw new ERR_INVALID_ARG_VALUE('filename', filename, createRequireError);
+    ^
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'filename' must be a file URL object, file URL string, or absolute path string. Received undefined
+    at createRequire (node:internal/modules/cjs/loader:1966:11)
+    at Object.<anonymous> (/opt/render/project/src/dist/index.cjs:73:443)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'ERR_INVALID_ARG_VALUE'
+}
+Node.js v22.16.0
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Analyzing image with gemini-1.5-pro
+[Google Vision] Rate limited, waiting and retrying...
+[Google Vision] Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported f
