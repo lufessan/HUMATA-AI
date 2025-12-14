@@ -9,6 +9,7 @@ import { useAppContext } from "@/lib/appContext";
 import { t } from "@/lib/translations";
 import { ConversationsSidebar } from "@/components/ConversationsSidebar";
 import { FloatingNavBar } from "@/components/FloatingNavBar";
+import { SmartInputBox } from "@/components/SmartInputBox";
 import { queryClient } from "@/lib/queryClient";
 
 interface Message {
@@ -321,7 +322,6 @@ export default function Chat() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [sidebarMode, setSidebarMode] = useState<"conversations" | "modules">("conversations");
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const fileInputRef = useRef<HTMLInputElement>(null);
   const autoSentRef = useRef(false);
 
   // Sync URL parameters with state whenever location changes (including query params)
@@ -555,15 +555,6 @@ export default function Chat() {
   // Remove a specific file by ID
   const handleRemoveFile = (fileId: string) => {
     setUploadedFiles(prev => prev.filter(f => f.id !== fileId));
-  };
-
-  // Clear all uploaded files
-  const handleClearAllFiles = () => {
-    setUploadedFiles([]);
-  };
-
-  const handleFileSelect = async (file: File) => {
-    uploadFileMutation.mutate(file);
   };
 
 
@@ -832,290 +823,124 @@ export default function Chat() {
 
       <footer className="sticky bottom-0">
         <div className="max-w-3xl w-full mx-auto px-3 sm:px-4 md:px-6 py-4 sm:py-6 space-y-3 sm:space-y-4">
-          {/* Multiple files display */}
-          {uploadedFiles.length > 0 && (
-            <div className="p-3 bg-accent/10 border border-accent/30 rounded-xl text-xs space-y-2">
-              <div className="flex items-center justify-between">
-                <span className="font-semibold text-primary">
-                  {language === "ar" ? `${uploadedFiles.length} ملف مرفق` : `${uploadedFiles.length} file(s) attached`}
-                </span>
-                {uploadedFiles.length > 1 && (
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    onClick={handleClearAllFiles}
-                    data-testid="button-clear-all-files"
-                    className="h-6 px-2 text-destructive hover:text-destructive"
-                  >
-                    {language === "ar" ? "حذف الكل" : "Clear All"}
-                  </Button>
-                )}
-              </div>
-              <div className="flex flex-wrap gap-2">
-                {uploadedFiles.map((file) => (
-                  <div key={file.id} className="flex items-center gap-2 bg-background/50 rounded-lg px-2 py-1">
-                    <Upload className="w-3 h-3" />
-                    <span className="max-w-32 truncate">{file.fileName}</span>
-                    <button
-                      onClick={() => handleRemoveFile(file.id)}
-                      className="text-muted-foreground hover:text-destructive transition-colors"
-                      data-testid={`button-remove-file-${file.id}`}
+          {/* Quiz settings for quizzes persona */}
+          {persona === "quizzes" && (
+            <div className="flex items-center gap-2 mb-2">
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => setShowQuizzesSettings(!showQuizzesSettings)}
+                disabled={sendMessageMutation.isPending}
+                data-testid="button-quiz-settings"
+                className="h-8"
+              >
+                <Settings className="w-4 h-4 mr-1" />
+                {language === "ar" ? "إعدادات الاختبار" : "Quiz Settings"}
+              </Button>
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => setShowUrlModal(true)}
+                disabled={sendMessageMutation.isPending}
+                data-testid="button-url-input"
+                className="h-8"
+              >
+                <Link2 className="w-4 h-4 mr-1" />
+                {language === "ar" ? "رابط URL" : "URL Link"}
+              </Button>
+              
+              {showQuizzesSettings && (
+                <div className="absolute bottom-24 left-1/2 -translate-x-1/2 bg-card border border-border rounded-lg shadow-lg z-50 p-3 w-72">
+                  <h4 className="font-bold mb-3 text-sm">{language === "ar" ? "إعدادات الاختبار" : "Quiz Settings"}</h4>
+                  
+                  <div className="space-y-3">
+                    <div>
+                      <label className="text-xs font-semibold mb-1 block">{language === "ar" ? "عدد الأسئلة" : "Number of Questions"}</label>
+                      <input
+                        type="number"
+                        min="1"
+                        max="100"
+                        value={quizNumQuestions}
+                        onChange={(e) => setQuizNumQuestions(e.target.value)}
+                        data-testid="input-quiz-count"
+                        className="w-full px-2 py-1 rounded border border-border bg-background text-sm"
+                      />
+                    </div>
+                    
+                    <div>
+                      <label className="text-xs font-semibold mb-1 block">{language === "ar" ? "نوع الأسئلة" : "Question Type"}</label>
+                      <select
+                        value={quizQuestionType}
+                        onChange={(e) => setQuizQuestionType(e.target.value)}
+                        data-testid="select-question-type"
+                        className="w-full px-2 py-1 rounded border border-border bg-background text-sm"
+                      >
+                        <option value="multiple-choice">{language === "ar" ? "اختيار من متعدد" : "Multiple Choice"}</option>
+                        <option value="true-false">{language === "ar" ? "صح/خطأ" : "True/False"}</option>
+                        <option value="mixed">{language === "ar" ? "مختلط" : "Mixed"}</option>
+                      </select>
+                    </div>
+                    
+                    <div>
+                      <label className="text-xs font-semibold mb-1 block">{language === "ar" ? "مستوى الصعوبة" : "Difficulty Level"}</label>
+                      <select
+                        value={quizDifficulty}
+                        onChange={(e) => setQuizDifficulty(e.target.value)}
+                        data-testid="select-difficulty"
+                        className="w-full px-2 py-1 rounded border border-border bg-background text-sm"
+                      >
+                        <option value="easy">{language === "ar" ? "سهل" : "Easy"}</option>
+                        <option value="medium">{language === "ar" ? "متوسط" : "Medium"}</option>
+                        <option value="hard">{language === "ar" ? "صعب" : "Hard"}</option>
+                      </select>
+                    </div>
+                    
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      onClick={() => setShowQuizzesSettings(false)}
+                      data-testid="button-close-settings"
+                      className="w-full mt-2"
                     >
-                      ✕
-                    </button>
+                      {language === "ar" ? "تم" : "Done"}
+                    </Button>
                   </div>
-                ))}
-              </div>
+                </div>
+              )}
             </div>
           )}
 
-
-          <div className="neon-input-container flex items-center gap-3 bg-muted/30 rounded-full pl-5 pr-2 py-2 border border-primary/40 focus-within:outline-none focus-within:ring-0">
-            <Input
-              ref={fileInputRef}
-              type="file"
-              accept=".pdf,.jpg,.jpeg,.png,.gif,.webp,.doc,.docx,.txt,.md"
-              multiple
-              onChange={(e) => {
-                if (e.target.files && e.target.files.length > 0) {
-                  Array.from(e.target.files).forEach(file => handleFileSelect(file));
-                  e.target.value = '';
-                }
-              }}
-              className="hidden"
-              data-testid="input-file"
-            />
-
-            {personaInfo.controlIcons?.includes("upload") && (
+          {/* URL button for personas that need it (doctor, scientific-assistant, khedive, geographer, chat) */}
+          {(persona === "doctor" || persona === "scientific-assistant" || persona === "khedive" || persona === "geographer" || persona === "chat") && (
+            <div className="flex items-center gap-2 mb-2">
               <Button
                 variant="ghost"
-                size="icon"
-                onClick={() => fileInputRef.current?.click()}
-                disabled={uploadFileMutation.isPending || sendMessageMutation.isPending}
-                data-testid="button-upload-file"
-                className="h-8 w-8"
-                title={language === "ar" ? "رفع ملف" : "Upload File"}
-              >
-                {uploadFileMutation.isPending ? (
-                  <Loader2 className="w-4 h-4 animate-spin" />
-                ) : (
-                  <Upload className="w-4 h-4" />
-                )}
-              </Button>
-            )}
-
-            {personaInfo.controlIcons?.includes("search") && (
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={() => setEnableGrounding(!enableGrounding)}
-                disabled={sendMessageMutation.isPending}
-                data-testid="button-search"
-                className={`h-8 w-8 ${enableGrounding ? "text-primary" : ""}`}
-                title={language === "ar" ? "بحث جوجل" : "Google Search"}
-              >
-                <Search className="w-4 h-4" />
-              </Button>
-            )}
-
-            {personaInfo.controlIcons?.includes("ai-only") && (
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={() => setEnableGrounding(false)}
-                disabled={sendMessageMutation.isPending}
-                data-testid="button-ai-only"
-                className={`h-8 w-8 ${!enableGrounding ? "text-primary" : ""}`}
-                title={language === "ar" ? "ذكاء فقط" : "AI Only"}
-              >
-                <Radio className="w-4 h-4" />
-              </Button>
-            )}
-
-            {personaInfo.controlIcons?.includes("google-scholar") && (
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={() => window.open("https://scholar.google.com/", "_blank")}
-                disabled={sendMessageMutation.isPending}
-                data-testid="button-google-scholar"
-                className="h-8 w-8"
-                title={language === "ar" ? "Google Scholar" : "Google Scholar"}
-              >
-                <Globe className="w-4 h-4" />
-              </Button>
-            )}
-
-            {personaInfo.controlIcons?.includes("pubmed") && (
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={() => window.open("https://pubmed.ncbi.nlm.nih.gov/", "_blank")}
-                disabled={sendMessageMutation.isPending}
-                data-testid="button-pubmed"
-                className="h-8 w-8"
-                title={language === "ar" ? "PubMed" : "PubMed"}
-              >
-                <FileText className="w-4 h-4" />
-              </Button>
-            )}
-
-            {personaInfo.controlIcons?.includes("research-db") && (
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={() => window.open("https://www.researchgate.net/", "_blank")}
-                disabled={sendMessageMutation.isPending}
-                data-testid="button-research-db"
-                className="h-8 w-8"
-                title={language === "ar" ? "ResearchGate" : "ResearchGate"}
-              >
-                <Database className="w-4 h-4" />
-              </Button>
-            )}
-
-            {(personaInfo.controlIcons?.includes("upload-source") || persona === "doctor" || persona === "quizzes" || persona === "scientific-assistant" || persona === "khedive") && (
-              <>
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  onClick={() => fileInputRef.current?.click()}
-                  disabled={uploadFileMutation.isPending}
-                  data-testid="button-upload-source"
-                  className="h-8 w-8"
-                  title={language === "ar" ? "رفع مصدر" : "Upload Source"}
-                >
-                  <Upload className="w-4 h-4" />
-                </Button>
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  onClick={() => setShowUrlModal(true)}
-                  disabled={sendMessageMutation.isPending}
-                  data-testid="button-url-input"
-                  className="h-8 w-8"
-                  title={language === "ar" ? "رابط URL" : "URL Link"}
-                >
-                  <Link2 className="w-4 h-4" />
-                </Button>
-                {persona === "quizzes" && (
-                  <div className="relative">
-                    <Button
-                      variant="ghost"
-                      size="icon"
-                      onClick={() => setShowQuizzesSettings(!showQuizzesSettings)}
-                      disabled={sendMessageMutation.isPending}
-                      data-testid="button-quiz-settings"
-                      className="h-8 w-8"
-                      title={language === "ar" ? "إعدادات الاختبار" : "Quiz Settings"}
-                    >
-                      <Settings className="w-4 h-4" />
-                    </Button>
-                    
-                    {showQuizzesSettings && (
-                      <div className="absolute bottom-10 right-0 bg-card border border-border rounded-lg shadow-lg z-50 p-3 w-72">
-                        <h4 className="font-bold mb-3 text-sm">{language === "ar" ? "إعدادات الاختبار" : "Quiz Settings"}</h4>
-                        
-                        <div className="space-y-3">
-                          <div>
-                            <label className="text-xs font-semibold mb-1 block">{language === "ar" ? "عدد الأسئلة" : "Number of Questions"}</label>
-                            <input
-                              type="number"
-                              min="1"
-                              max="100"
-                              value={quizNumQuestions}
-                              onChange={(e) => setQuizNumQuestions(e.target.value)}
-                              data-testid="input-quiz-count"
-                              className="w-full px-2 py-1 rounded border border-border bg-background text-sm"
-                            />
-                          </div>
-                          
-                          <div>
-                            <label className="text-xs font-semibold mb-1 block">{language === "ar" ? "نوع الأسئلة" : "Question Type"}</label>
-                            <select
-                              value={quizQuestionType}
-                              onChange={(e) => setQuizQuestionType(e.target.value)}
-                              data-testid="select-question-type"
-                              className="w-full px-2 py-1 rounded border border-border bg-background text-sm"
-                            >
-                              <option value="multiple-choice">{language === "ar" ? "اختيار من متعدد" : "Multiple Choice"}</option>
-                              <option value="true-false">{language === "ar" ? "صح/خطأ" : "True/False"}</option>
-                              <option value="mixed">{language === "ar" ? "مختلط" : "Mixed"}</option>
-                            </select>
-                          </div>
-                          
-                          <div>
-                            <label className="text-xs font-semibold mb-1 block">{language === "ar" ? "مستوى الصعوبة" : "Difficulty Level"}</label>
-                            <select
-                              value={quizDifficulty}
-                              onChange={(e) => setQuizDifficulty(e.target.value)}
-                              data-testid="select-difficulty"
-                              className="w-full px-2 py-1 rounded border border-border bg-background text-sm"
-                            >
-                              <option value="easy">{language === "ar" ? "سهل" : "Easy"}</option>
-                              <option value="medium">{language === "ar" ? "متوسط" : "Medium"}</option>
-                              <option value="hard">{language === "ar" ? "صعب" : "Hard"}</option>
-                            </select>
-                          </div>
-                          
-                          <Button
-                            variant="ghost"
-                            size="sm"
-                            onClick={() => setShowQuizzesSettings(false)}
-                            data-testid="button-close-settings"
-                            className="w-full mt-2"
-                          >
-                            {language === "ar" ? "تم" : "Done"}
-                          </Button>
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                )}
-              </>
-            )}
-
-            {persona === "chat" && (
-              <Button
-                variant="ghost"
-                size="icon"
+                size="sm"
                 onClick={() => setShowUrlModal(true)}
                 disabled={sendMessageMutation.isPending}
-                data-testid="button-url"
-                className="h-8 w-8"
-                title={language === "ar" ? "إضافة رابط" : "Add URL"}
+                data-testid="button-url-input"
+                className="h-8"
               >
-                <Link2 className="w-4 h-4" />
+                <Link2 className="w-4 h-4 mr-1" />
+                {language === "ar" ? "إضافة رابط" : "Add URL"}
               </Button>
-            )}
+            </div>
+          )}
 
-            <Input
-              placeholder={t("chat.placeholder", language)}
-              value={inputValue}
-              onChange={(e) => setInputValue(e.target.value)}
-              onKeyPress={(e) => e.key === "Enter" && handleSendMessage()}
-              disabled={sendMessageMutation.isPending}
-              data-testid="input-message"
-              className="border-0 bg-transparent placeholder:text-muted-foreground/50 !ring-0 !outline-none focus-visible:!ring-0 focus-visible:!outline-none focus:!ring-0 focus:!outline-none ring-offset-0 focus-visible:ring-offset-0 flex-1"
-            />
-
-            <Button
-              onClick={handleSendMessage}
-              disabled={
-                (!inputValue.trim() && uploadedFiles.length === 0) ||
-                sendMessageMutation.isPending
-              }
-              data-testid="button-send"
-              size="icon"
-              className="h-8 w-8 rounded-full"
-            >
-              {sendMessageMutation.isPending ? (
-                <Loader2 className="w-4 h-4 animate-spin" />
-              ) : (
-                <Send className="w-4 h-4" />
-              )}
-            </Button>
-          </div>
+          {/* SmartInputBox */}
+          <SmartInputBox
+            value={inputValue}
+            onChange={(val) => setInputValue(val)}
+            onSubmit={handleSendMessage}
+            context="chat"
+            persona={persona}
+            onFileUpload={(file) => uploadFileMutation.mutate(file)}
+            uploadedFiles={uploadedFiles}
+            onRemoveFile={handleRemoveFile}
+            isLoading={sendMessageMutation.isPending}
+            language={language as "ar" | "en"}
+            placeholder={t("chat.placeholder", language)}
+          />
 
           {showUrlModal && (
             <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">

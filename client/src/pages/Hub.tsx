@@ -1,8 +1,10 @@
+import { useState } from "react";
 import { useLocation } from "wouter";
 import { MessageSquare, HelpCircle, BookOpen, Image, CheckCircle, Sparkles, Stethoscope, Users, Landmark, Sun, Moon, Globe, Map } from "lucide-react";
 import { useAppContext } from "@/lib/appContext";
 import { t } from "@/lib/translations";
 import { Button } from "@/components/ui/button";
+import { SmartInputBox } from "@/components/SmartInputBox";
 
 function FeatureCardComponent({ feature }: any) {
   const IconComponent = feature.icon;
@@ -41,6 +43,7 @@ function FeatureCardComponent({ feature }: any) {
 export default function Hub() {
   const { language, theme, setLanguage, setTheme } = useAppContext();
   const [, setLocation] = useLocation();
+  const [inputValue, setInputValue] = useState("");
 
   const featureKeys = [
     { id: "chat", titleKey: "feature.chat", descKey: "feature.chat.desc", icon: MessageSquare, route: "/chat", glowColor: "cyan" },
@@ -166,6 +169,23 @@ export default function Hub() {
             {features.map((feature) => (
               <FeatureCardComponent key={feature.id} feature={feature} />
             ))}
+          </div>
+
+          <div className="max-w-2xl mx-auto mt-12 mb-8 px-3" data-testid="quick-input-container">
+            <SmartInputBox
+              value={inputValue}
+              onChange={(val) => setInputValue(val)}
+              onSubmit={() => {
+                if (inputValue.trim()) {
+                  setLocation(`/chat?initialMessage=${encodeURIComponent(inputValue)}`);
+                }
+              }}
+              context="dashboard"
+              persona=""
+              isLoading={false}
+              language={language}
+              placeholder={language === "ar" ? "ابدأ محادثة سريعة..." : "Start a quick conversation..."}
+            />
           </div>
 
           <div className="mt-16 sm:mt-20 md:mt-24 mb-8 px-3 flex justify-center">

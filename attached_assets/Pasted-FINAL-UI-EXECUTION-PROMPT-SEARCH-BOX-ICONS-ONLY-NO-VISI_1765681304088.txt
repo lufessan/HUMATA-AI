@@ -1,0 +1,227 @@
+FINAL UI EXECUTION PROMPT — SEARCH-BOX ICONS ONLY (NO VISION / NO OCR)
+
+Role:
+You are a senior UI/UX engineer and full-stack developer.
+This task is UI-critical and must be executed exactly as specified.
+
+❗ Ignore any previous Image / OCR / Vision requirements completely.
+This task focuses ONLY on icons inside page-level input boxes and their correct behavior.
+
+🎯 OBJECTIVE
+
+Expose all requested platform features as icons embedded inside the actual input/search box of each page (for example: the chat input field shown in the screenshots).
+
+❌ Do NOT create a separate global box
+❌ Do NOT place icons outside the input field
+❌ Do NOT hide features in menus or settings
+
+✅ Icons must live inside the same box where the user types.
+
+🔴 CORE REQUIREMENT — WHERE ICONS MUST APPEAR
+
+Icons must be injected inside the page-level input component, including but not limited to:
+
+Chat page input box
+
+Tool pages input/search boxes
+
+Course / lesson page input boxes
+
+Dashboard / home interactive input boxes
+
+📌 If a page has an input field → icons must appear inside it.
+
+Implement via a shared input wrapper component used across all sections.
+
+🧩 FEATURES THAT MUST BE EXPOSED VIA ICONS
+
+All the following features are already requested and must be exposed to users via icons:
+
+Auto Mode Detection (Student / Teacher / Exam logic)
+
+Student Mode
+
+Teacher Mode
+
+Smart Study Pack
+
+Explain This (content/image/text)
+
+Image → Lesson
+
+Exam Simulator
+
+“Why is this wrong?” Mode
+
+Usage Insights
+
+Difficulty Control
+
+Memory by Topic
+
+❗ A feature that is not visible = a feature that does not exist.
+
+🎨 ICON GROUPING & VISUAL RULES (VERY IMPORTANT)
+❗ Avoid clutter at all costs
+
+Do NOT show many icons individually
+
+Group related features
+
+Maximum 3 related features per grouped icon
+
+✅ Recommended grouping (example – adapt if needed):
+
+Group 1 — Learning Modes
+
+Auto Mode
+
+Student
+
+Teacher
+
+Group 2 — Study Tools
+
+Smart Study Pack
+
+Image → Lesson
+
+Explain This
+
+Group 3 — Assessment & Feedback
+
+Exam Simulator
+
+Why is this wrong?
+
+Usage Insights
+
+Optional small controls
+
+Difficulty
+
+Memory by Topic
+(can be grouped or shown as compact toggles if space allows)
+
+➡️ Total visible icon groups should remain clean and minimal (3–4 max).
+
+🧠 CONTEXT-AWARE BEHAVIOR (MANDATORY)
+
+Icons must change behavior based on the page they are used in, while keeping the same visual appearance.
+
+Examples:
+
+Chat page
+
+Icons trigger AI behavior inside the conversation
+
+Tool / Upload page
+
+Icons apply actions to uploaded files
+
+Course / Lesson page
+
+Icons generate summaries, lessons, or exams
+
+Dashboard
+
+Icons emphasize insights and progress
+
+⚠️ Same icon, different function depending on section context.
+
+Implement via a lightweight context router:
+
+currentPage → iconActionMapping
+
+🧭 INTERACTION RULES
+
+Icons must appear before typing
+
+Icons must be:
+
+Clickable
+
+Touch-friendly (mobile)
+
+Keyboard accessible
+
+Selected mode/tool must:
+
+Be visually highlighted
+
+Persist during the session (localStorage)
+
+Switching mode/tool must:
+
+Immediately affect system behavior
+
+NOT reload the page
+
+🧪 FINAL VERIFICATION (DO NOT SKIP)
+
+Before marking this task complete, you MUST provide:
+
+1️⃣ Screenshots (required)
+
+Showing icons inside the input box itself for:
+
+Chat page
+
+Tool page
+
+Course / lesson page
+
+Dashboard / home
+
+2️⃣ Final checklist
+
+For each item:
+
+Implemented ✅
+
+Tested ✅
+
+Verified visually ✅
+
+3️⃣ Confirmation
+
+Explicitly confirm:
+
+Icons are NOT in a separate box
+
+Icons appear inside input fields
+
+Icons appear in ALL sections
+
+Icons are grouped and not cluttered
+
+⛔ FORBIDDEN
+
+Separate feature box
+
+Hidden icons
+
+Icons only on one page
+
+Icons outside the input field
+
+“Implemented but not shown”
+
+✅ ACCEPTANCE CRITERIA
+
+This task is considered complete ONLY IF:
+
+All features are visible via icons
+
+Icons are inside every page’s input box
+
+UI remains clean and uncluttered
+
+Screenshots prove correct placement
+
+🧠 FINAL NOTE
+
+If the user cannot discover a feature in 2 seconds,
+the UI has failed — even if the backend works.
+
+Design for visibility first.
