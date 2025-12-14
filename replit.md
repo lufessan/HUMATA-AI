@@ -16,6 +16,14 @@ Application is production-ready with all 8 primary modules fully integrated and 
 - **NO Google Vision, NO Gemini, NO external vision APIs**
 
 ## Recent Changes
+- **December 14, 2025**: Draggable Mobile Floating Controls
+  - Implemented touch drag & drop for mobile floating navigation buttons
+  - Position persists during session (sessionStorage)
+  - Smooth drag interaction with screen bounds clamping
+  - Visual feedback during drag (scale, grip icon, enhanced glow)
+  - Prevention of accidental clicks while dragging
+  - Arabic hint text "اسحب للتحريك" for discoverability
+  - Desktop controls remain fixed (no dragging)
 - **December 14, 2025**: Quiz Enhancements + Arabic PDF Heading Detection
   - Quiz question limit increased from 50 to 100 questions per quiz
   - Updated quiz system prompt for better balanced content coverage
