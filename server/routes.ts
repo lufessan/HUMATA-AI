@@ -3,7 +3,7 @@ import { createServer, type Server } from "http";
 import multer from "multer";
 import fs from "fs";
 import { storage } from "./storage";
-import { sendChatMessage, uploadFile, getApiKeyStatus } from "./groq";
+import { sendChatMessage, uploadFile, getApiKeyStatus, structurePDFText } from "./groq";
 import { randomUUID } from "crypto";
 import { signupSchema, loginSchema, type SignupInput, type LoginInput, type User } from "@shared/schema";
 import crypto from "crypto";
@@ -486,6 +486,39 @@ export async function registerRoutes(
       res.status(500).json({ 
         success: false, 
         error: error.message || "Failed to upload file" 
+      });
+    }
+  });
+
+  // API for automatic heading detection from Arabic PDF text
+  app.post("/api/structure-text", async (req: Request, res: Response) => {
+    try {
+      const { text } = req.body;
+      
+      if (!text || typeof text !== "string") {
+        res.status(400).json({ 
+          success: false, 
+          error: "النص مطلوب" 
+        });
+        return;
+      }
+      
+      console.log(`[Routes] Structure text request - ${text.length} chars`);
+      
+      const result = await structurePDFText(text);
+      
+      res.json({
+        success: true,
+        originalLength: text.length,
+        sectionsCount: result.sections.length,
+        sections: result.sections,
+        plainText: result.plainText
+      });
+    } catch (error: any) {
+      console.error("[Routes] Structure text error:", error);
+      res.status(500).json({ 
+        success: false, 
+        error: error.message || "فشل في تحليل النص" 
       });
     }
   });

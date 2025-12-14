@@ -208,6 +208,126 @@ ${chunk}`;
   return completion.choices[0]?.message?.content?.trim() || chunk;
 }
 
+// Structure for heading detection output
+export interface DocumentSection {
+  type: "main" | "sub";
+  title: string;
+  content: string;
+}
+
+export interface StructuredDocument {
+  sections: DocumentSection[];
+  plainText: string;
+}
+
+// Automatic Heading Detection from Arabic PDF Text
+async function detectHeadingsFromText(rawText: string): Promise<StructuredDocument> {
+  const defaultResult: StructuredDocument = {
+    sections: [{ type: "main", title: "المحتوى", content: rawText }],
+    plainText: rawText
+  };
+  
+  if (!GROQ_API_KEY) {
+    console.log("[Heading-Detection] No API key available, returning raw text");
+    return defaultResult;
+  }
+  
+  if (!rawText || rawText.length < 100) {
+    console.log("[Heading-Detection] Text too short for heading detection");
+    return defaultResult;
+  }
+  
+  console.log(`[Heading-Detection] Starting automatic heading detection (${rawText.length} chars)`);
+  
+  const MAX_CHARS = 8000;
+  const textToProcess = rawText.length > MAX_CHARS ? rawText.slice(0, MAX_CHARS) : rawText;
+  
+  const headingDetectionPrompt = `أنت نظام ذكي متخصص في تحليل النصوص العربية المستخرجة من مستندات PDF واكتشاف هيكل المستند تلقائياً.
+
+المهمة:
+تحليل النص العربي التالي (المستخرج من PDF) واكتشاف:
+- العناوين الرئيسية
+- العناوين الفرعية
+- إعادة بناء الهيكل المنطقي للمستند
+
+ملاحظات مهمة:
+- النص قد يحتوي على أخطاء OCR
+- قد تكون المسافات غير متسقة
+- لا توجد معلومات تنسيق
+- يجب استنتاج الهيكل من المحتوى وليس التنسيق
+
+قواعد اكتشاف العناوين:
+حدد العناوين باستخدام الأدلة الدلالية مثل:
+1. جمل التعريف: "تعريف..."، "مفهوم..."، "ما هو..."
+2. التعدادات: "أولاً"، "ثانياً"، "أنواع"، "مراحل"، "خصائص"، "استخدامات"
+3. انتقالات الموضوع: "في هذا الفصل"، "ننتقل إلى"، "سنتناول"، "يهدف هذا القسم"
+
+صيغة الإخراج (JSON فقط):
+أرجع مصفوفة JSON بالشكل التالي:
+[
+  {"type": "main", "title": "العنوان الرئيسي", "content": "محتوى القسم..."},
+  {"type": "sub", "title": "العنوان الفرعي", "content": "محتوى القسم الفرعي..."}
+]
+
+النص المطلوب تحليله:
+${textToProcess}`;
+
+  try {
+    const completion = await groq.chat.completions.create({
+      model: REASONING_MODEL,
+      messages: [
+        {
+          role: "system",
+          content: "أنت محرر نصوص محترف. أخرج JSON فقط بدون أي نص إضافي. المصفوفة يجب أن تحتوي على كائنات بالحقول: type, title, content"
+        },
+        {
+          role: "user",
+          content: headingDetectionPrompt
+        }
+      ],
+      max_tokens: 8192,
+      temperature: 0.2,
+    });
+
+    const responseText = completion.choices[0]?.message?.content?.trim();
+    
+    if (!responseText) {
+      console.log("[Heading-Detection] No response generated, using original");
+      return defaultResult;
+    }
+    
+    // Try to parse JSON from response
+    let sections: DocumentSection[] = [];
+    try {
+      // Extract JSON array from response (may have extra text)
+      const jsonMatch = responseText.match(/\[[\s\S]*\]/);
+      if (jsonMatch) {
+        sections = JSON.parse(jsonMatch[0]);
+      } else {
+        console.log("[Heading-Detection] No JSON array found in response");
+        return defaultResult;
+      }
+    } catch (parseError) {
+      console.error("[Heading-Detection] JSON parse error:", parseError);
+      return defaultResult;
+    }
+    
+    // Build plain text from sections
+    const plainText = sections.map(s => `${s.title}\n\n${s.content}`).join("\n\n");
+    
+    console.log(`[Heading-Detection] Text structured: ${sections.length} sections found`);
+    return { sections, plainText };
+  } catch (error: any) {
+    console.error("[Heading-Detection] Error:", error.message);
+    return defaultResult;
+  }
+}
+
+// Export the heading detection function for use in routes
+export async function structurePDFText(text: string): Promise<StructuredDocument> {
+  return await detectHeadingsFromText(text);
+}
+
 async function extractTextFromDOCX(base64Data: string): Promise<string> {
   try {
     const buffer = Buffer.from(base64Data, "base64");
