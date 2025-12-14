@@ -52,12 +52,160 @@ async function extractTextFromPDF(base64Data: string): Promise<string> {
   try {
     const buffer = Buffer.from(base64Data, "base64");
     const data = await pdfParse(buffer);
-    console.log(`[FileReader] PDF extracted - ${data.text.length} chars`);
+    console.log(`[FileReader] PDF extracted - ${data.text.length} chars, ${data.numpages} pages`);
+    
+    if (data.numpages > 1 && GROQ_API_KEY) {
+      console.log(`[PDF-Merge] Multi-page PDF detected (${data.numpages} pages), applying smart merging...`);
+      const mergedText = await smartMergeMultiPagePDF(data.text, data.numpages);
+      return mergedText;
+    }
+    
     return data.text;
   } catch (error: any) {
     console.error("[FileReader] PDF extraction error:", error.message);
     throw new Error("فشل في قراءة ملف PDF");
   }
+}
+
+async function smartMergeMultiPagePDF(rawText: string, numPages: number): Promise<string> {
+  if (!GROQ_API_KEY) {
+    console.log("[PDF-Merge] No API key available, returning raw text");
+    return rawText;
+  }
+  
+  if (!rawText || rawText.length < 50) {
+    console.log("[PDF-Merge] Text too short for merging");
+    return rawText;
+  }
+  
+  console.log(`[PDF-Merge] Starting smart merge for ${numPages}-page PDF (${rawText.length} chars)`);
+  
+  const MAX_CHARS_PER_CHUNK = 6000;
+  
+  if (rawText.length <= MAX_CHARS_PER_CHUNK) {
+    return await processSingleChunk(rawText, numPages);
+  }
+  
+  console.log(`[PDF-Merge] Large PDF detected, processing in chunks...`);
+  const chunks: string[] = [];
+  let currentPos = 0;
+  
+  while (currentPos < rawText.length) {
+    let endPos = Math.min(currentPos + MAX_CHARS_PER_CHUNK, rawText.length);
+    
+    if (endPos < rawText.length) {
+      const lastPeriod = rawText.lastIndexOf('.', endPos);
+      const lastNewline = rawText.lastIndexOf('\n', endPos);
+      const breakPoint = Math.max(lastPeriod, lastNewline);
+      if (breakPoint > currentPos + MAX_CHARS_PER_CHUNK / 2) {
+        endPos = breakPoint + 1;
+      }
+    }
+    
+    chunks.push(rawText.slice(currentPos, endPos));
+    currentPos = endPos;
+  }
+  
+  console.log(`[PDF-Merge] Split into ${chunks.length} chunks`);
+  
+  const processedChunks: string[] = [];
+  for (let i = 0; i < chunks.length; i++) {
+    console.log(`[PDF-Merge] Processing chunk ${i + 1}/${chunks.length}`);
+    try {
+      const processed = await cleanPDFChunk(chunks[i], i === 0, i === chunks.length - 1);
+      processedChunks.push(processed);
+    } catch (error: any) {
+      console.error(`[PDF-Merge] Chunk ${i + 1} failed, using raw:`, error.message);
+      processedChunks.push(chunks[i]);
+    }
+  }
+  
+  const merged = processedChunks.join('\n\n');
+  console.log(`[PDF-Merge] Chunked merge complete: ${rawText.length} -> ${merged.length} chars`);
+  return merged;
+}
+
+async function processSingleChunk(rawText: string, numPages: number): Promise<string> {
+  const mergePrompt = `أنت نظام متخصص في دمج النصوص المستخرجة من ملفات PDF متعددة الصفحات.
+
+النص التالي تم استخراجه من ملف PDF يحتوي على ${numPages} صفحة.
+النص قد يحتوي على:
+- جمل مقطوعة بين الصفحات
+- رؤوس وتذييلات متكررة في كل صفحة
+- أرقام صفحات
+- عناوين متكررة
+
+مهمتك:
+1. دمج جميع الصفحات في نص عربي واحد متماسك
+2. إعادة ربط الجمل المقطوعة بين الصفحات بشكل صحيح
+3. إزالة رؤوس الصفحات والتذييلات المتكررة وأرقام الصفحات
+4. الحفاظ على المعنى الأصلي تماماً
+
+أخرج النص المدموج والمنظف فقط.
+
+النص الخام:
+${rawText}`;
+
+  try {
+    const completion = await groq.chat.completions.create({
+      model: REASONING_MODEL,
+      messages: [
+        {
+          role: "system",
+          content: "أنت متخصص في معالجة النصوص العربية من PDF. أخرج النص المنظف فقط."
+        },
+        {
+          role: "user",
+          content: mergePrompt
+        }
+      ],
+      max_tokens: 4096,
+      temperature: 0.1,
+    });
+
+    const mergedText = completion.choices[0]?.message?.content?.trim();
+    
+    if (!mergedText) {
+      console.log("[PDF-Merge] No merged text generated, using original");
+      return rawText;
+    }
+    
+    console.log(`[PDF-Merge] Text merged: ${rawText.length} -> ${mergedText.length} chars`);
+    return mergedText;
+  } catch (error: any) {
+    console.error("[PDF-Merge] Merge error:", error.message);
+    return rawText;
+  }
+}
+
+async function cleanPDFChunk(chunk: string, isFirst: boolean, isLast: boolean): Promise<string> {
+  const cleanPrompt = `نظف هذا النص العربي المستخرج من PDF:
+- أزل أرقام الصفحات والرؤوس والتذييلات المتكررة
+- صحح الجمل المقطوعة
+- حافظ على المحتوى الأصلي
+
+${isFirst ? 'هذا بداية المستند.' : ''} ${isLast ? 'هذا نهاية المستند.' : ''}
+
+النص:
+${chunk}`;
+
+  const completion = await groq.chat.completions.create({
+    model: REASONING_MODEL,
+    messages: [
+      {
+        role: "system",
+        content: "نظف النص وأخرجه مباشرة بدون شرح."
+      },
+      {
+        role: "user",
+        content: cleanPrompt
+      }
+    ],
+    max_tokens: 4096,
+    temperature: 0.1,
+  });
+
+  return completion.choices[0]?.message?.content?.trim() || chunk;
 }
 
 async function extractTextFromDOCX(base64Data: string): Promise<string> {

@@ -41,8 +41,9 @@ export function FloatingNavBar({ isSidebarOpen = false, onToggleSidebar, isOnCha
       <div 
         className="fixed flex flex-col gap-2 transition-all duration-300"
         style={{
-          bottom: "20px",
-          left: "16px",
+          top: "40%",
+          left: "12px",
+          transform: "translateY(-50%)",
           zIndex: 99999,
           pointerEvents: "auto"
         }}
@@ -144,8 +145,9 @@ export function FloatingNavBar({ isSidebarOpen = false, onToggleSidebar, isOnCha
     <div 
       className="fixed flex gap-2 transition-all duration-300"
       style={{
-        top: "15%",
+        top: "50%",
         left: "20px",
+        transform: "translateY(-50%)",
         flexDirection: "column",
         zIndex: 99999,
         pointerEvents: "auto"

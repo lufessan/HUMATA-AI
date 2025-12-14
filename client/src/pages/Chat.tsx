@@ -869,8 +869,14 @@ export default function Chat() {
             <Input
               ref={fileInputRef}
               type="file"
-              accept=".pdf,.jpg,.jpeg,.png,.gif,.webp"
-              onChange={(e) => e.target.files?.[0] && handleFileSelect(e.target.files[0])}
+              accept=".pdf,.jpg,.jpeg,.png,.gif,.webp,.doc,.docx,.txt,.md"
+              multiple
+              onChange={(e) => {
+                if (e.target.files && e.target.files.length > 0) {
+                  Array.from(e.target.files).forEach(file => handleFileSelect(file));
+                  e.target.value = '';
+                }
+              }}
               className="hidden"
               data-testid="input-file"
             />

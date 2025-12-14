@@ -1,0 +1,169 @@
+🔥 Unified Prompt — Smart PDF Merging + UI Control Button Repositioning
+
+Role:
+You are an autonomous senior full-stack engineer and AI pipeline architect working on a production educational platform.
+
+🎯 PART 1 — SMART MULTI-PAGE PDF TEXT MERGING (CRITICAL)
+Objective
+
+Implement an intelligent text-merging system for multi-page PDF files (especially scanned PDFs) so that the final output is a single, coherent Arabic text, as if written naturally by a human.
+
+This is NOT simple concatenation.
+
+Required Behavior
+
+After OCR is applied to each page:
+
+Treat all pages as one continuous document, not separate inputs.
+
+Remove:
+
+Repeated headers and footers
+
+Page numbers
+
+Repeated titles that appear on every page
+
+Detect and reconnect sentences broken across pages:
+
+If a sentence ends incompletely at the bottom of a page,
+it must be merged with the beginning of the next page.
+
+Preserve the logical flow of the content:
+
+Definitions before explanations
+
+Explanations before examples
+
+Maintain clear structure:
+
+Each section in its own paragraph
+
+Headings separated clearly
+
+Do NOT:
+
+Remove meaningful content
+
+Add new information
+
+Change the original meaning
+
+LLM Instruction for Merging
+
+The following texts were extracted from consecutive pages of the same PDF document.
+The text may contain:
+
+Broken sentences across page boundaries
+
+Repeated headers or footers
+
+OCR artifacts
+
+Your task:
+
+Merge all pages into one unified Arabic text
+
+Reconstruct broken sentences correctly
+
+Remove repetitions
+
+Preserve the original meaning and order
+
+Output clean, well-structured Modern Standard Arabic
+
+Page texts:
+
+{{PAGES_TEXT_ARRAY}}
+
+
+The result must be suitable for:
+
+Educational explanation
+
+Summarization
+
+Question answering
+
+🎯 PART 2 — UI FIX: FLOATING CONTROL BUTTONS POSITIONING
+Objective
+
+Update the UI so that floating control buttons (Menu button + WhatsApp button):
+
+❌ Are NOT fixed at the bottom of the page
+
+✅ Are positioned at the vertical center of the left side of the screen
+
+Required UI Behavior
+
+Both buttons must:
+
+Appear as floating controls
+
+Stay visible while scrolling
+
+Positioning:
+
+Left side of the viewport
+
+Vertically centered
+
+Layout:
+
+Buttons stacked vertically
+
+Clear spacing between them
+
+Interaction:
+
+Smooth hover and click effects
+
+No obstruction of main content
+
+Responsive behavior:
+
+On mobile:
+
+Adjust spacing
+
+Keep buttons accessible
+
+On desktop:
+
+Fixed, stable position
+
+UI Constraints
+
+Do NOT place the buttons at the bottom
+
+Do NOT hide them behind content
+
+Do NOT break existing navigation logic
+
+Maintain a clean, modern look
+
+✅ FINAL EXPECTED RESULT
+
+Multi-page PDFs are converted into one clean, readable Arabic document
+
+OCR output feels human and coherent
+
+Menu and WhatsApp buttons are:
+
+Clearly visible
+
+Centrally positioned on the left
+
+Easy to access
+
+Visually balanced
+
+🧠 FINAL NOTE
+
+This task requires both:
+
+Linguistic intelligence (for text merging)
+
+UI precision (for control positioning)
+
+Implement both parts fully and professionally.
