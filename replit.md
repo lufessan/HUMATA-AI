@@ -16,6 +16,13 @@ Application is production-ready with all 8 primary modules fully integrated and 
 - **NO Google Vision, NO Gemini, NO external vision APIs**
 
 ## Recent Changes
+- **December 14, 2025**: Multi-File Upload + Smart PDF Merging + UI Improvements
+  - Multiple file uploads now supported (select multiple files at once)
+  - Expanded file format support: PDF, images, DOC/DOCX, TXT, Markdown
+  - Smart multi-page PDF merging with LLM (removes headers/footers, reconnects broken sentences)
+  - Chunked processing for large PDFs (handles 100+ page documents gracefully)
+  - Floating control buttons repositioned to vertical center of left side
+  - Mobile-responsive button positioning to avoid UI overlap
 - **December 14, 2025**: Enhanced Arabic OCR Pipeline
   - Added Sharp image preprocessing (grayscale, contrast, thresholding, noise removal, morphological ops)
   - Integrated LLM-based Arabic text correction for OCR output
