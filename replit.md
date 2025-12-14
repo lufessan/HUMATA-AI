@@ -16,6 +16,13 @@ Application is production-ready with all 8 primary modules fully integrated and 
 - **NO Google Vision, NO Gemini, NO external vision APIs**
 
 ## Recent Changes
+- **December 14, 2025**: Universal Image Understanding System
+  - Added Llama 4 Maverick vision model for intelligent image analysis
+  - Image classification: automatically detects document, UI, diagram, or mixed content
+  - Visual Understanding Mode: comprehensive Arabic analysis for non-document images
+  - Intelligent decision tree: UI/diagrams skip OCR, documents try OCR then fallback
+  - System NEVER returns "no text found" errors - always provides meaningful analysis
+  - All output enforced to be Arabic-only (العربية الفصحى)
 - **December 14, 2025**: Draggable Mobile Floating Controls
   - Implemented touch drag & drop for mobile floating navigation buttons
   - Position persists during session (sessionStorage)
