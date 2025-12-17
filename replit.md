@@ -6,16 +6,25 @@ A fully Arabic-localized cyberpunk-themed web application powered by Groq LLM wi
 ## Status: ✅ FULLY COMPLETE (8 Modules)
 Application is production-ready with all 8 primary modules fully integrated and tested.
 
-## AI Stack (No Google Dependencies)
-- **LLM**: Groq (llama-3.3-70b-versatile) - Fast inference
-- **OCR**: Enhanced Arabic OCR Pipeline:
-  - **Phase 1**: Sharp image preprocessing (grayscale, contrast, thresholding, noise removal, deskew, morphological operations)
-  - **Phase 2**: Tesseract.js text extraction (Arabic + English)
-  - **Phase 3**: LLM-based Arabic text correction (fixes OCR errors, broken characters, spacing issues)
+## AI Stack
+- **LLM**: Groq (llama-3.3-70b-versatile) - Fast inference for chat
+- **Image/File Analysis**: Google Gemini 2.0 Flash - Best for OCR & document analysis
+  - Superior accuracy for Arabic text, math problems, and complex documents
+  - API key rotation system with up to 5 keys for reliability
+  - Automatic cooldown and recovery on rate limits
+- **OCR Fallback**: Enhanced Arabic OCR Pipeline (when Gemini unavailable):
+  - Sharp image preprocessing (grayscale, contrast, thresholding, noise removal)
+  - Tesseract.js text extraction (Arabic + English)
+  - LLM-based Arabic text correction
 - **File Parsing**: pdf-parse, mammoth (local processing)
-- **NO Google Vision, NO Gemini, NO external vision APIs**
 
 ## Recent Changes
+- **December 17, 2025**: Gemini 2.0 Flash Integration for Image/File Analysis
+  - Replaced Tesseract OCR with Gemini 2.0 Flash for superior accuracy
+  - New API key rotation system with up to 5 keys (GEMINI_API_KEY, GEMINI_API_KEY_2, etc.)
+  - Automatic cooldown and recovery system prevents quota exhaustion
+  - Best model for reading math problems, documents, and Arabic text
+  - Fallback to Tesseract if Gemini keys unavailable
 - **December 14, 2025**: SmartInputBox with Grouped Feature Icons
   - New reusable SmartInputBox component with icons embedded inside input fields
   - 4 icon groups: Learning Modes (Auto/Student/Teacher), Study Tools (Pack/Image/Explain), Assessment (Exam/Why Wrong/Insights), Options (Difficulty/Memory)
