@@ -4,6 +4,7 @@ import mammoth from "mammoth";
 import { createRequire } from "module";
 import Tesseract from "tesseract.js";
 import sharp from "sharp";
+import { analyzeImageWithGemini, getGeminiKeyStatus, hasGeminiKeys } from "./gemini";
 
 const require = createRequire(import.meta.url);
 const pdfParse = require("pdf-parse");
@@ -48,10 +49,15 @@ export interface GroqChatOptions {
 }
 
 export function getApiKeyStatus() {
+  const geminiStatus = getGeminiKeyStatus();
   return {
-    total: GROQ_API_KEY ? 1 : 0,
-    available: GROQ_API_KEY ? 1 : 0,
-    failed: 0
+    groq: {
+      total: GROQ_API_KEY ? 1 : 0,
+      available: GROQ_API_KEY ? 1 : 0,
+      failed: 0
+    },
+    gemini: geminiStatus,
+    hasImageAnalysis: geminiStatus.available > 0
   };
 }
 
@@ -913,11 +919,22 @@ ${rawText}`;
   }
 }
 
-// Universal Image Understanding: Intelligent Image Processing
+// Universal Image Understanding: Intelligent Image Processing with Gemini
 export async function processImageIntelligently(base64Data: string, mimeType: string): Promise<string> {
-  console.log("[Image-Intel] Starting Universal Image Understanding pipeline");
+  console.log("[Image-Intel] Starting Universal Image Understanding pipeline with Gemini 2.0 Flash");
   
   try {
+    // Check if Gemini is available
+    if (hasGeminiKeys()) {
+      console.log("[Image-Intel] Using Gemini 2.0 Flash for image analysis (Best for OCR & documents)");
+      const geminiResult = await analyzeImageWithGemini(base64Data, mimeType);
+      console.log(`[Image-Intel] Gemini analysis complete - ${geminiResult.length} chars`);
+      return geminiResult;
+    }
+    
+    // Fallback to old Tesseract + Groq method if no Gemini keys
+    console.log("[Image-Intel] No Gemini keys available, falling back to Tesseract OCR");
+    
     // Step 1: Classify the image type using vision model
     console.log("[Image-Intel] Step 1: Classifying image type with vision model");
     const imageType = await classifyImage(base64Data, mimeType);
@@ -925,13 +942,12 @@ export async function processImageIntelligently(base64Data: string, mimeType: st
     
     // Step 2: Route based on classification
     if (imageType === "ui" || imageType === "diagram") {
-      // For UI and diagrams: Skip OCR, use Visual Understanding directly
       console.log(`[Image-Intel] Step 2: Using Visual Understanding Mode for ${imageType}`);
       const visualAnalysis = await analyzeImageVisually(base64Data, mimeType);
       return visualAnalysis;
     }
     
-    // For documents and mixed: Try OCR first, fallback to Visual Understanding
+    // For documents and mixed: Try OCR
     console.log("[Image-Intel] Step 2: Attempting OCR for document/mixed type");
     
     const originalBuffer = Buffer.from(base64Data, "base64");
@@ -1000,7 +1016,6 @@ export async function processImageIntelligently(base64Data: string, mimeType: st
       return visualAnalysis;
     } catch (fallbackError: any) {
       console.error("[Image-Intel] Visual fallback also failed:", fallbackError.message);
-      // Ultimate fallback: provide a helpful response instead of error
       return `[تحليل الصورة]
 
 تصنيف الصورة:
