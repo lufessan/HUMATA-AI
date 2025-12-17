@@ -32,6 +32,78 @@ interface UploadedFileInfo {
   id: string; // Unique ID for each file
 }
 
+// Function to convert LaTeX notation to readable Unicode text
+const formatLatexToText = (text: string): string => {
+  if (!text) return text;
+  
+  let result = text;
+  
+  // Remove LaTeX delimiters like \( \) and \[ \]
+  result = result.replace(/\\\(/g, '').replace(/\\\)/g, '');
+  result = result.replace(/\\\[/g, '').replace(/\\\]/g, '');
+  
+  // Handle square roots: \sqrt{n} -> √n
+  result = result.replace(/\\sqrt\{([^}]+)\}/g, '√$1');
+  
+  // Handle fractions: \frac{a}{b} -> a/b
+  result = result.replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, '$1/$2');
+  
+  // Handle powers/superscripts: ^{n} or ^n -> ⁿ (for common cases)
+  result = result.replace(/\^2/g, '²');
+  result = result.replace(/\^\{2\}/g, '²');
+  result = result.replace(/\^3/g, '³');
+  result = result.replace(/\^\{3\}/g, '³');
+  result = result.replace(/\^n/g, 'ⁿ');
+  result = result.replace(/\^\{n\}/g, 'ⁿ');
+  
+  // Handle common LaTeX symbols
+  result = result.replace(/\\approx/g, '≈');
+  result = result.replace(/\\times/g, '×');
+  result = result.replace(/\\div/g, '÷');
+  result = result.replace(/\\pm/g, '±');
+  result = result.replace(/\\neq/g, '≠');
+  result = result.replace(/\\leq/g, '≤');
+  result = result.replace(/\\geq/g, '≥');
+  result = result.replace(/\\infty/g, '∞');
+  result = result.replace(/\\pi/g, 'π');
+  result = result.replace(/\\alpha/g, 'α');
+  result = result.replace(/\\beta/g, 'β');
+  result = result.replace(/\\gamma/g, 'γ');
+  result = result.replace(/\\delta/g, 'δ');
+  result = result.replace(/\\theta/g, 'θ');
+  result = result.replace(/\\lambda/g, 'λ');
+  result = result.replace(/\\mu/g, 'μ');
+  result = result.replace(/\\sigma/g, 'σ');
+  result = result.replace(/\\omega/g, 'ω');
+  result = result.replace(/\\sum/g, '∑');
+  result = result.replace(/\\prod/g, '∏');
+  result = result.replace(/\\int/g, '∫');
+  result = result.replace(/\\partial/g, '∂');
+  result = result.replace(/\\nabla/g, '∇');
+  result = result.replace(/\\cdot/g, '·');
+  result = result.replace(/\\ldots/g, '...');
+  result = result.replace(/\\rightarrow/g, '→');
+  result = result.replace(/\\leftarrow/g, '←');
+  result = result.replace(/\\Rightarrow/g, '⇒');
+  result = result.replace(/\\Leftarrow/g, '⇐');
+  result = result.replace(/\\forall/g, '∀');
+  result = result.replace(/\\exists/g, '∃');
+  result = result.replace(/\\in/g, '∈');
+  result = result.replace(/\\subset/g, '⊂');
+  result = result.replace(/\\cup/g, '∪');
+  result = result.replace(/\\cap/g, '∩');
+  result = result.replace(/\\degree/g, '°');
+  result = result.replace(/\\circ/g, '°');
+  
+  // Remove remaining backslashes from unknown commands (but preserve content)
+  result = result.replace(/\\([a-zA-Z]+)/g, '$1');
+  
+  // Clean up extra spaces
+  result = result.replace(/\s+/g, ' ').trim();
+  
+  return result;
+};
+
 const getPersonaIcon = (persona: string | null) => {
   const icons: Record<string, any> = {
     "": MessageSquare,
@@ -778,7 +850,7 @@ export default function Chat() {
                       }`}
                     >
                       <p className={`whitespace-pre-wrap leading-relaxed ${language === "ar" ? "text-lg font-bold" : "text-sm"}`}>
-                        {msg.content}
+                        {formatLatexToText(msg.content)}
                       </p>
                       {msg.fileInfo && (
                         <div className="mt-3 pt-3 border-t border-border/20 text-xs text-muted-foreground flex items-center gap-2">
