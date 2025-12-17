@@ -41,7 +41,7 @@ const upload = multer({
     },
   }),
   limits: {
-    fileSize: 20 * 1024 * 1024, // 20MB
+    fileSize: 100 * 1024 * 1024, // 100MB - supports up to 500 pages
   },
   fileFilter: (req, file, cb) => {
     console.log(`[Multer] fileFilter called - filename: ${file.originalname}, mimetype: ${file.mimetype}, encoding: ${file.encoding}`);
